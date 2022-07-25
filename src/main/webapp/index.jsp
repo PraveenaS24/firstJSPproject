@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +7,16 @@
 <title>Index</title>
 </head>
 <body>
-	<h1>Welcome to my own project</h1>
-	<a href="addemp.jsp">Add new Employee</a>
-	<a href="viewEmployee.jsp">View Employee</a>
-	
+<center>
+<h1>Welcome to Modify the Employee</h1>
+<br>
+<a href ="addEmp.jsp">Add New Employee</a>
+<br>
+<a href ="updateEmp.jsp">Update Employee</a>
+<br>
+<a href ="deleteEmp.jsp">Delete Employee</a>
+<br>
+<a href ="ListAllEmployeeServlet">View All Employee</a>
+</center>
 </body>
 </html>

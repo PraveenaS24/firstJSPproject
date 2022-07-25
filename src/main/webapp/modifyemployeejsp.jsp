@@ -1,16 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Adding New Employee </title>
+<title>Modify Employee</title>
 </head>
-<body>
-<form action="addemployee.jsp" method="post">
+<body style="background-color: cyan;">
+
+	<form action="/ModifyEmployeeServlet" method="post">
+		<!-- -need to mention method=post -->
 
 		<center>
-			<h2>Add Employee</h2>
+			<h2>Add or Update Employee</h2>
 			<table>
 				<tbody>
 					<tr>
@@ -60,8 +62,31 @@
 					</tr>
 					<tr rowspan=2>
 						<div>
-							<td><input type='submit' value='Add Employee' name='submit'></td>
+							<td><input type='submit' value='Add Employee' name='submit'
+								style="background-color: lightBlue"></td>
 						</div>
 						<div>
+							<td><input type='submit' value='Update Employe' name='submit' style="background-color: lightBlue"></td>
+						</div>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<h2>Delete Employee</h2>
+			<div>
+				ID: <input type='text' name='emp_id'>
+			</div>
+			<div>
+				<input type='submit' value='Delete Employee' name='submit' style="background-color: lightBlue">
+			</div>
+			<div>
+				<br>
+				<h2>View All Employee</h2>
+				<input type='submit' value='View All Employee' name='submit' style="background-color: lightBlue">
+			</div>
+		</center>
+
+	</form>
+	</div>
 </body>
 </html>

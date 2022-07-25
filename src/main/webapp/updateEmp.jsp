@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Adding New Employee </title>
+<title>Update Employee</title>
 </head>
 <body>
-<form action="addemployee.jsp" method="post">
+<form action="ModifyEmployeeServlet" method="post">
 
 		<center>
-			<h2>Add Employee</h2>
+			<h2>Update Employee</h2>
 			<table>
 				<tbody>
 					<tr>
@@ -60,8 +60,9 @@
 					</tr>
 					<tr rowspan=2>
 						<div>
-							<td><input type='submit' value='Add Employee' name='submit'></td>
+							<td><input type='submit' value='Update Employee' name='submit'></td>
 						</div>
 						<div>
+</body>
 </body>
 </html>
